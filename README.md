@@ -4,6 +4,7 @@
 核心方法 chatit
 
 调用时的使用示例：
+
     private string instring="";
     
     private string outstring="";
@@ -27,14 +28,15 @@ Core method chatit
 
 Example of use when calling：
 
-private string instring="";
+    private string instring="";
 
-private string outstring="";
+    private string outstring="";
 
-private async void aichat()
+    private async void aichat()
 
-{
-outstring = await AIchat.Instance.gptit(instring);
+    {
+    
+    outstring = await AIchat.Instance.gptit(instring);
 
-}
+    }
 Through this asynchronous aichat, instring is transferred to chatgpt and outstring is returned**
