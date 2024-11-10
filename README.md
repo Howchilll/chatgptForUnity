@@ -1,7 +1,7 @@
 加入工程后通过资源包里的Nuget插件下载缺少的库文件
  在chat.cs 的 api = new OpenAIAPI（“”）处，添加openAI的key
 
-核心方法 chatit
+核心方法 gptit(string)
 
 调用时的使用示例：
 
@@ -24,7 +24,7 @@
 
 Add the openAI key at api = new OpenAIAPI ("") in chat.cs
 
-Core method chatit
+Core method gptit(string)
 
 Example of use when calling：
 
