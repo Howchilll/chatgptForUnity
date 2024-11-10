@@ -17,7 +17,7 @@
         
     }
     
-    通过这个异步的aichat，将instring转递给chatgpt并得到返回的outstring
+ 通过这个异步的aichat，将instring转递给chatgpt并得到返回的outstring
     
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  After adding the project, download the missing library files through the Nuget plug-in in the resource package
