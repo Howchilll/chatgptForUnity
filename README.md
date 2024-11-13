@@ -18,7 +18,8 @@
     }
     
  通过这个异步的aichat，将instring转递给chatgpt并得到返回的outstring
-    
+
+ 如果要打包 先删除open ai api-test这个文件夹
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  After adding the project, download the missing library files through the Nuget plug-in in the resource package
 
@@ -40,3 +41,4 @@ Example of use when calling：
 
     }
 Through this asynchronous aichat, instring is transferred to chatgpt and outstring is returned**
+If you want to package, first delete the folder open ai api-test
